@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t804;
+package com.lzp.leetcode.t804;
 
 import java.util.TreeSet;
 

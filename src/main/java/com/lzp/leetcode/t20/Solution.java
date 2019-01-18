@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t20;
+package com.lzp.leetcode.t20;
 
 import java.util.Stack;
 

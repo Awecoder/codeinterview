@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t347;
+package com.lzp.leetcode.t347;
 
 import java.util.*;
 

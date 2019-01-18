@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t307;
+package com.lzp.leetcode.t307;
 
 class NumArray {
     // 存放数据

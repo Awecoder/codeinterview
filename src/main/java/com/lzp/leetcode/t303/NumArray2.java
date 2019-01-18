@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t303;
+package com.lzp.leetcode.t303;
 
 class NumArray2 {
 

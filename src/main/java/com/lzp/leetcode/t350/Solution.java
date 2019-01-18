@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t350;
+package com.lzp.leetcode.t350;
 
 import java.util.ArrayList;
 import java.util.TreeMap;

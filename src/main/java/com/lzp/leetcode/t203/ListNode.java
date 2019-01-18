@@ -1,4 +1,4 @@
-package top.dtyy.leetcode.t203;
+package com.lzp.leetcode.t203;
 
 /**
  * Definition for singly-linked list.
