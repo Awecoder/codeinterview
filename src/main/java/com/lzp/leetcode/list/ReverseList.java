@@ -1,6 +1,6 @@
 package com.lzp.leetcode.list;
 
-import com.lzp.leetcode.t203.ListNode;
+import java.util.Collections;
 
 /**
  * 反转链表的两种解决方法
@@ -36,13 +36,37 @@ public class ReverseList {
         return prev;
     }
 
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
+    /**
+     * 递归法
+     * 时间复杂度O(n)--链表长度是n
+     * 空间复杂度0(n)--使用递归，会用到隐式栈空间，递归深度为n
+     *
+     * @param head 以head为头节点的链表
+     * @return
+     */
+    public ListNode reverseListR(ListNode head) {
+        // 终止条件：当当前节点为最后一个节点或null时，
+        // 此时没有子问题，不需要递归，递归终止
+        if (head == null || head.next == null) {
+            return head;
         }
+        // 原链表：1 -> 2 -> null
+        // 当前链表：1 -> 2 <- null, subList = null -> 2
+        // 1.next.next = 1, 1.next = null, 此时subList = null -> 2 -> 1
+        ListNode subList = reverseListR(head.next);
+        // 对于原链表，当前节点下一个节点指向当前节点
+        head.next.next = head;
+        // 子链表末尾指向null
+        head.next = null;
+        return subList;
     }
 }
 
+class ListNode {
+    int val;
+    ListNode next;
+
+    public ListNode(int x) {
+        val = x;
+    }
+}
