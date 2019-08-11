@@ -1,7 +1,5 @@
 package com.lzp.leetcode.list;
 
-import java.util.Collections;
-
 /**
  * 反转链表的两种解决方法
  * 1. 迭代法
@@ -59,14 +57,5 @@ public class ReverseList {
         // 子链表末尾指向null
         head.next = null;
         return subList;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    public ListNode(int x) {
-        val = x;
     }
 }

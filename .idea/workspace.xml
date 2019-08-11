@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee35a9f-0019-4898-b8e8-63d3ae69140b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/list/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/list/ReverseList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t001/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t001/Solution0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t20/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t203/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t203/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t203/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t206/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t206/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t303/NumArray1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t303/NumArray2$Merger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t303/NumArray2$SegmentTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t303/NumArray2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t307/NumArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t347/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t349/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t350/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lzp/leetcode/t804/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/top/dtyy/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/SwapPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/t203/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/t203/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SwapPairs">
     <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzp.leetcode.list.ReverseList" />
       <module name="codeinterview" />
@@ -78,8 +56,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzp.leetcode.list.SwapPairs" />
+      <module name="codeinterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzp.leetcode.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.ReverseList" />
       </list>
     </recent_temporary>
@@ -101,7 +93,8 @@
       <workItem from="1564935596748" duration="216000" />
       <workItem from="1564936021700" duration="1066000" />
       <workItem from="1564961030657" duration="6120000" />
-      <workItem from="1565045697053" duration="769000" />
+      <workItem from="1565045697053" duration="6155000" />
+      <workItem from="1565499901650" duration="4723000" />
     </task>
     <servers />
   </component>
@@ -126,7 +119,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/ReverseList.java</url>
-          <line>56</line>
+          <line>54</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
