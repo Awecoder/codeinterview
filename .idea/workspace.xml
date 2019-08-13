@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee35a9f-0019-4898-b8e8-63d3ae69140b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/HasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzp/leetcode/list/DetectCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +106,8 @@
       <workItem from="1564936021700" duration="1066000" />
       <workItem from="1564961030657" duration="6120000" />
       <workItem from="1565045697053" duration="6155000" />
-      <workItem from="1565499901650" duration="9004000" />
+      <workItem from="1565499901650" duration="9654000" />
+      <workItem from="1565707155830" duration="166000" />
     </task>
     <servers />
   </component>
